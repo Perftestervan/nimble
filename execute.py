@@ -102,7 +102,7 @@ def perform():
         while True:
             try:
                 print_in_color(f"Preparing", "\033[33m")
-                time.sleep(10)
+                time.sleep(1)
                 task_args = register_particle(addr)
                 print_in_color(f"Address {addr} received the task.", "\033[33m")
                 execute(task_args)
